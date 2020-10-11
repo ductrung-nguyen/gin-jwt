@@ -1,4 +1,4 @@
-module github.com/ductrung-nguyen/gin-jwt/v2
+module github.com/ductrung-nguyen/gin-jwt
 
 go 1.13
 
