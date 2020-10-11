@@ -225,7 +225,7 @@ func TestLoginHandler(t *testing.T) {
 		Authorizator: func(user interface{}, c *gin.Context) bool {
 			return true
 		},
-		LoginResponse: func(c *gin.Context, code int, token string, t time.Time) {
+		LoginResponse: func(c *gin.Context, code int, token string, t time.Time, claims map[string]interface{}) {
 			cookie, err := c.Cookie("jwt")
 			if err != nil {
 				log.Println(err)
