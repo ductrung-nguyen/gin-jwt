@@ -32,13 +32,13 @@ import "github.com/ductrung-nguyen/gin-jwt/v2"
 Download and install without using [go module](https://blog.golang.org/using-go-modules):
 
 ```sh
-go get github.com/appleboy/gin-jwt
+go get github.com/ductrung-nguyen/gin-jwt
 ```
 
 Import it in your code:
 
 ```go
-import "github.com/appleboy/gin-jwt"
+import "github.com/ductrung-nguyen/gin-jwt"
 ```
 
 ## Example
